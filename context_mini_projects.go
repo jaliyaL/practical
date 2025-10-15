@@ -261,7 +261,7 @@ func sink(ctx context.Context, in <-chan int, cancel context.CancelFunc, numCons
 		wg.Add(1)
 		go consumer(i)
 	}
-
+	//
 	wg.Wait()
 }
 
