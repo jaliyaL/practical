@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	s "github.com/jaliyaL/master-goroutines/sliceandmap"
+)
 
 func main() {
 	fmt.Println("Hi")
-	RateLimiterV6()
+	//WebServer()
+	s.SM01()
 }
